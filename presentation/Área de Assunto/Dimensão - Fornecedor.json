@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Dimensão - Fornecedor",
+    "presentationColumns" : [ {
+      "name" : "S_Chave de Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.SUPPLIER.S_SUPPKEY"
+    }, {
+      "name" : "S_Nome do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.SUPPLIER.S_NAME"
+    }, {
+      "name" : "S_Endereço do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.SUPPLIER.S_ADDRESS"
+    }, {
+      "name" : "S_Cidade do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.SUPPLIER.S_CITY"
+    }, {
+      "name" : "S_País do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.SUPPLIER.S_NATION"
+    }, {
+      "name" : "S_Região do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.SUPPLIER.S_REGION"
+    }, {
+      "name" : "S_Telefone do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.SUPPLIER.S_PHONE"
+    } ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "subjectArea" : {
+    "name" : "Área de Assunto",
+    "sourceBusinessModel" : "businessModel:Modelo de Negócios",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Área de Assunto.CUSTOMER"
+    }, {
+      "name" : "presentationTable:Área de Assunto.DWDATE"
+    }, {
+      "name" : "presentationTable:Área de Assunto.LINEORDER"
+    }, {
+      "name" : "presentationTable:Área de Assunto.PART"
+    }, {
+      "name" : "presentationTable:Área de Assunto.SUPPLIER"
+    } ],
+    "permissions" : [ {
+      "accessor" : "role:DVConsumer",
+      "access" : "READ"
+    } ]
+  }
+}

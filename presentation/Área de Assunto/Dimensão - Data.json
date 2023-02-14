@@ -1,0 +1,57 @@
+{
+  "presentationTable" : {
+    "name" : "Dimensão - Data",
+    "presentationColumns" : [ {
+      "name" : "D_Feriado",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_HOLIDAYFL"
+    }, {
+      "name" : "D_Dia de Semana",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_WEEKDAYFL"
+    }, {
+      "name" : "D_Chave",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_DATEKEY"
+    }, {
+      "name" : "D_Data",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_DATE"
+    }, {
+      "name" : "D_Dia da Semana",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_DAYOFWEEK"
+    }, {
+      "name" : "D_Mês",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_MONTH"
+    }, {
+      "name" : "D_Ano",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_YEAR"
+    }, {
+      "name" : "D_Número do Mês",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_YEARMONTHNUM"
+    }, {
+      "name" : "D_Mês e Ano",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_YEARMONTH"
+    }, {
+      "name" : "D_Número do dia na Semana",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_DAYNUMINWEEK"
+    }, {
+      "name" : "D_Número do dia no Mês",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_DAYNUMINMONTH"
+    }, {
+      "name" : "D_Número do dia no Ano",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_DAYNUMINYEAR"
+    }, {
+      "name" : "D_Número do Mês no Ano",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_MONTHNUMINYEAR"
+    }, {
+      "name" : "D_Número da Semana no Ano",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_WEEKNUMINYEAR"
+    }, {
+      "name" : "D_Temporada de Vendas",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_SELLINGSEASON"
+    }, {
+      "name" : "D_Último dia da Semana",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_LASTDAYINWEEKFL"
+    }, {
+      "name" : "D_Último dia no Mês",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.DWDATE.D_LASTDAYINMONTHFL"
+    } ]
+  }
+}

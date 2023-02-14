@@ -1,0 +1,33 @@
+{
+  "presentationTable" : {
+    "name" : "Dimensão - Produto",
+    "presentationColumns" : [ {
+      "name" : "P_Chave de Produto",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_PARTKEY"
+    }, {
+      "name" : "P_Nome do Produto",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_NAME"
+    }, {
+      "name" : "P_MFGR",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_MFGR"
+    }, {
+      "name" : "P_Categoria do Produto",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_CATEGORY"
+    }, {
+      "name" : "P_Marco do Produto",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_BRAND1"
+    }, {
+      "name" : "P_Cor do Produto",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_COLOR"
+    }, {
+      "name" : "P_Tipo do Produto",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_TYPE"
+    }, {
+      "name" : "P_Tamanho do Produto",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_SIZE"
+    }, {
+      "name" : "P_Conteiner de Entrega",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.PART.P_CONTAINER"
+    } ]
+  }
+}

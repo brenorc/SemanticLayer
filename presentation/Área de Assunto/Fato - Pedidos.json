@@ -1,0 +1,57 @@
+{
+  "presentationTable" : {
+    "name" : "Fato - Pedidos",
+    "presentationColumns" : [ {
+      "name" : "LO_Chave do Pedido",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_ORDERKEY"
+    }, {
+      "name" : "LO_Número da Linha",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_LINENUMBER"
+    }, {
+      "name" : "LO_Chave do Cliente",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_CUSTKEY"
+    }, {
+      "name" : "LO_Chave da Parte",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_PARTKEY"
+    }, {
+      "name" : "LO_Chave do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_SUPPKEY"
+    }, {
+      "name" : "LO_Data do Pedido",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_ORDERDATE"
+    }, {
+      "name" : "LO_Prioridade do Pedido",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_ORDERPRIORITY"
+    }, {
+      "name" : "LO_Prioridade do Envio",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_SHIPPRIORITY"
+    }, {
+      "name" : "LO_Quantidade",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_QUANTITY"
+    }, {
+      "name" : "LO_Preço Extendido",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_EXTENDEDPRICE"
+    }, {
+      "name" : "LO_Preço Total",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_ORDTOTALPRICE"
+    }, {
+      "name" : "LO_Desconto",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_DISCOUNT"
+    }, {
+      "name" : "LO_Receita",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_REVENUE"
+    }, {
+      "name" : "LO_Custo do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_SUPPLYCOST"
+    }, {
+      "name" : "LO_Impostos",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_TAX"
+    }, {
+      "name" : "LO_Data de Envio",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_COMMITDATE"
+    }, {
+      "name" : "LO_Modo de Entrega",
+      "sourceLogicalColumn" : "logicalColumn:Modelo de Negócios.LINEORDER.LO_SHIPMODE"
+    } ]
+  }
+}
